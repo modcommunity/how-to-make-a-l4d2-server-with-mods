@@ -14,7 +14,6 @@ I wanted to note a couple of things before continuing in this guide.
 * [Requirements](#requirements)
     * [Hardware & Network](#hardware--network)
     * [Port Forwarding](#port-forwarding)
-* [Downloading & Running SteamCMD](#downloading--running-steamcmd)
 * [Downloading The Server Files](#downloading-the-server-files)
 * [Running The Left 4 Dead 2 Server](#running-the-left-4-dead-2-server)
     * [Windows](#windows)
