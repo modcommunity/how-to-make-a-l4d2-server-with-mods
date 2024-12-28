@@ -398,4 +398,4 @@ I just wanted to provide some helpful resources and tools for server owners who 
 ## Conclusion
 That sums up this guide, but I hope to create many more guides in the future! By this point, you should have a functioning Left 4 Dead 2 server with one or more mods/addons installed.
 
-If you see anything that can be improved on or added, please feel free to reply to this topic!
+If you see anything that can be improved on or added, please feel free to reply to [this](https://forum.moddingcommunity.com/t/how-to-make-a-left-4-dead-2-server-with-mods/203#p-232-how-to-mod-the-left-4-dead-2-server-13) topic!
