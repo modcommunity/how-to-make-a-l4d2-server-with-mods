@@ -54,8 +54,8 @@ If you plan on having your server accessible from the Internet, you may need to 
 
 If your LAN network is operating as a [NAT](https://www.comptia.org/content/guides/what-is-network-address-translation) network, you may need to create a NAT rule as well.
 
-## Downloading & Running SteamCMD
-The next step is to download and run SteamCMD. Give the following topic a read and keep in mind the Left 4 Dead 2 server's application ID is `222860`.
+## Downloading The Server Files
+The next step is to download the server files using [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD). Give the following topic a read and keep in mind the Left 4 Dead 2 server's application ID is `222860`.
 
 https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd/190
 
@@ -397,4 +397,4 @@ I just wanted to provide some helpful resources and tools for server owners who 
 ## Conclusion
 That sums up this guide, but I hope to create many more guides in the future! By this point, you should have a functioning Left 4 Dead 2 server with one or more mods/addons installed.
 
-If you see anything that can be improved on or added, please feel free to reply to the topic!
+If you see anything that can be improved on or added, please feel free to reply to this topic!
