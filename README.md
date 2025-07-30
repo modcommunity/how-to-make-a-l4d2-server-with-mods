@@ -12,7 +12,7 @@ Running a server with mods allows players to connect and enjoy a shared, customi
 
 The two operating systems we'll be targeting specifically in this guide are **Windows 11** and [**Debian 12**](https://www.debian.org/download) (Linux).
 
-[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-set-up-a-rust-game-server/499)
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-make-a-left-4-dead-2-server-with-mods-2025/203)
 
 I wanted to note a couple of things before continuing in this guide.
 * The terms `directory` (known in Linux) and `folder` (known in Windows) are used interchangeably. To keep things simple, we'll be using **directory** in most cases.
@@ -408,6 +408,6 @@ That sums up this guide, but I hope to create many more guides in the future! By
 
 If you see anything that can be improved on or added, please feel free to reply to [this](https://forum.moddingcommunity.com/t/how-to-make-a-left-4-dead-2-server-with-mods/203#p-232-how-to-mod-the-left-4-dead-2-server-13) topic!
 
-If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-set-up-a-rust-game-server/499)! This guide will be worked and improved on over time.
+If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-make-a-left-4-dead-2-server-with-mods-2025/203)! This guide will be worked and improved on over time.
 
 Join our [Discord server](https://discord.moddingcommunuity.com)!
