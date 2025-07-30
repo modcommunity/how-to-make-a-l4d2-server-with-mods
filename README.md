@@ -1,3 +1,9 @@
+<div align="center">
+
+![banner](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/banner.jpeg)
+
+</div>
+
 A guide on how to create and run a [Left 4 Dead 2](https://store.steampowered.com/app/550/Left_4_Dead_2/) server with **mods** on both [Windows](https://www.microsoft.com/en-us/windows) and Linux!
 
 Left 4 Dead 2 is a popular first-person shooter and zombie horror game set in a post-apocalyptic world overrun by zombies. This game has great modding support and many mods are available through the [Steam Workshop](https://steamcommunity.com/app/4000/workshop/) or through [SourceMod](https://www.sourcemod.net/about.php) [*plugins*](https://www.sourcemod.net/plugins.php?cat=0&mod=6&title=&author=&description=&search=1).
@@ -5,6 +11,8 @@ Left 4 Dead 2 is a popular first-person shooter and zombie horror game set in a 
 Running a server with mods allows players to connect and enjoy a shared, customized experience using the mods the server has installed.
 
 The two operating systems we'll be targeting specifically in this guide are **Windows 11** and [**Debian 12**](https://www.debian.org/download) (Linux).
+
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-set-up-a-rust-game-server/499)
 
 I wanted to note a couple of things before continuing in this guide.
 * The terms `directory` (known in Linux) and `folder` (known in Windows) are used interchangeably. To keep things simple, we'll be using **directory** in most cases.
@@ -103,7 +111,7 @@ Once you've saved the file, you will also want to give the user permission to ex
 chmod u+x start-server.sh
 ```
 
-![Server Start Linux](./images/server_lin_listdir.png)
+![Server Start Linux](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/server_lin_listdir.png)
 
 Finally, you can start the server using the following command.
 
@@ -111,7 +119,7 @@ Finally, you can start the server using the following command.
 ./start-server.sh
 ```
 
-![Server Start Linux #2](./images/server_lin_start.png)
+![Server Start Linux #2](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/server_lin_start.png)
 
 **NOTE** - You should see a `VAC secure mode is activated` message unless if you've specifically disabled VAC. With that said, if you want the server accessible from the Internet, you should also see a `Public IP is <your WAN IP>` message which is stripped out of the screenshot above.
 
@@ -127,7 +135,7 @@ First, let's install the screen package. You may need to log out of the current 
 sudo apt install -y screen
 ```
 
-![Screen Install](./images/screen_lin_install.png)
+![Screen Install](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/screen_lin_install.png)
 
 Next, copy the server startup command and add `screen -S <name>` in-front. Here is an example.
 
@@ -217,31 +225,31 @@ The first thing we'll want to do is create a collection. You can do this within 
 
 Firstly, navigate to **Community** -> **Workshop**.
 
-![Workshop Community Tab](./images/workshop_maindropdown.png)
+![Workshop Community Tab](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_maindropdown.png)
 
 Next, you'll want to type in **Left 4 Dead 2** where it says "Search for a Workshop". You can click the item from the drop-down menu.
 
-![Workshop Search For Left 4 Dead 2](./images/workshop_selectl4d2.png)
+![Workshop Search For Left 4 Dead 2](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_selectl4d2.png)
 
 Now, click the **Browse** drop-down menu near the left-middle of the screen and click **Collections**.
 
-![Workshop Click Browse And Collections](./images/workshop_selcollections.png)
+![Workshop Click Browse And Collections](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_selcollections.png)
 
 Afterwards, click the **Create Collection**.
 
-![Workshop Create Collection](./images/workshop_createcolbutton.png)
+![Workshop Create Collection](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_createcolbutton.png)
 
 You'll want to then fill out all fields on the page. In this guide, the title will simply be "Test Collection".
 
-![Workshop Create #1](./images/workshop_createcol01.png)
+![Workshop Create #1](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_createcol01.png)
 
 Finally, click the **Save and continue** button on the bottom-right to create the collection.
 
-![Workshop Create #2](./images/workshop_createcol02.png)
+![Workshop Create #2](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_createcol02.png)
 
 From here, you'll want to keep note of the numeric collection ID which is available in the Steam URL bar after `?id=`. We will need this later.
 
-![Workshop Collection ID](./images/workshop_colid.png)
+![Workshop Collection ID](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_colid.png)
 
 For example, the collection ID of following URL is `3386575566`.
 
@@ -256,16 +264,16 @@ Either find a workshop item to add to the collection to by browsing the Left 4 D
 
 From here, click the **Add to Collection** button.
 
-![Workshop Add To Collection #1](./images/workshop_addtocol01.png)
+![Workshop Add To Collection #1](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_addtocol01.png)
 
 This will bring up a checkbox list of all collections you own. Ensure to check the collection you want the item added to and click **Ok**.
 
-![Workshop Add To Collection #2](./images/workshop_addtocol02.png)
+![Workshop Add To Collection #2](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_addtocol02.png)
 
 #### Publish Collection
 Now, go back to the collection you've made and publish it by clicking the **Publish** button.
 
-![Publish Collection](./images/workshop_pubcol.png)
+![Publish Collection](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/workshop_pubcol.png)
 
 #### Extracting The Addon's Files
 It is recommended you use [this](https://github.com/Geam/steam_workshop_downloader) tool to extract the files of each addon inside of a collection.
@@ -294,7 +302,7 @@ python .\workshop.py <Collection ID>
 
 After this is done, you should see `*.vpk` files.
 
-![VPK files](./images/extract_vpkfiles.png)
+![VPK files](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/extract_vpkfiles.png)
 
 Now, upload/copy these files to your server's `addons/` directory and restart the server!
 
@@ -331,11 +339,11 @@ I'm going to use my server's internal hostname which is simply `x-gs01` under my
 connect x-gs01
 ```
 
-![Connect](./images/l4d2_connect.png)
+![Connect](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/l4d2_connect.png)
 
 You should now be connected to your Left 4 Dead 2 server! You can type `status` in your Developer Console to confirm.
 
-![Connected](./images/l4d2_connected.png)
+![Connected](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/l4d2_connected.png)
 
 ## Frequenty Asked Questions
 ### I receive an "Invalid Platform" error when downloading through SteamCMD.
@@ -380,7 +388,7 @@ By default, the developer console is not enabled in Left 4 Dead 2.
 
 To enable it, launch Left 4 Dead 2 and click the **Options** menu item. From here, click the **Keyboard & Mouse** item from the drop-down menu.
 
-![Options Item](./images/l4d2_options.png)
+![Options Item](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/l4d2_options.png)
 
 Next, toggle the **Allow Developer Console** option from *Disabled* to *Enabled*.
 
@@ -388,7 +396,7 @@ Finally, click the **Done** button!
 
 You should now be able to open the console by hitting or holding the \` or `~` key on your keyboard.
 
-![Keyboard & Mouse](./images/l4d2_km_options.png)
+![Keyboard & Mouse](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/l4d2_km_options.png)
 
 ## See Also
 I just wanted to provide some helpful resources and tools for server owners who want to improve their management experience in Left 4 Dead 2.
