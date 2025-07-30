@@ -408,4 +408,4 @@ That sums up this guide, but I hope to create many more guides in the future! By
 
 If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-make-a-left-4-dead-2-server-with-mods-2025/203)! This guide will be worked and improved on over time.
 
-Join our [Discord server](https://discord.moddingcommunuity.com)!
+Join our [Discord server](https://discord.moddingcommunity.com)!
