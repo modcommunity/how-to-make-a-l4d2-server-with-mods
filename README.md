@@ -181,7 +181,7 @@ There are a few ConVars you may set to help improve the server's performance dep
 
 Give the following section of the guide linked earlier a read!
 
-https://blog.moddingcommunity.com/hardware-network-requirements-for-source-engine-servers/
+https://blog.moddingcommunity.com/how-to-install-update-sourcemod-metamod/
 
 ## How To Mod The Left 4 Dead 2 Server
 There are two methods used when modding a Left 4 Dead 2 server.
@@ -195,7 +195,7 @@ Using SourceMod and MetaMod to mod your Left 4 Dead 2 server is recommended sinc
 ### Installing SourceMod & MetaMod Plugins
 Firstly, you'll need to download and install SourceMod onto your Left 4 Dead 2 server. I recommend reading the following guide I made a while ago on how to do this!
 
-https://forum.moddingcommunity.com/t/how-to-install-update-metamod-sourcemod-on-source-engine-servers/60
+https://blog.moddingcommunity.com/how-to-install-update-sourcemod-metamod/
 
 Next, you'll want to find plugins from [here](https://www.sourcemod.net/plugins.php?cat=0&mod=6&title=&author=&description=&search=1). Generally, the plugin's description includes details on how to install the plugin. However, the following is a good rule of thumb.
 
