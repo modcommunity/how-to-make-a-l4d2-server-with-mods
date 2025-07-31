@@ -1,9 +1,3 @@
-<div align="center">
-
-![banner](https://github.com/modcommunity/how-to-make-a-l4d2-server-with-mods/raw/main/images/banner.jpeg)
-
-</div>
-
 A guide on how to create and run a [Left 4 Dead 2](https://store.steampowered.com/app/550/Left_4_Dead_2/) server with **mods** on both [Windows](https://www.microsoft.com/en-us/windows) and Linux!
 
 Left 4 Dead 2 is a popular first-person shooter and zombie horror game set in a post-apocalyptic world overrun by zombies. This game has great modding support and many mods are available through the [Steam Workshop](https://steamcommunity.com/app/4000/workshop/) or through [SourceMod](https://www.sourcemod.net/about.php) [*plugins*](https://www.sourcemod.net/plugins.php?cat=0&mod=6&title=&author=&description=&search=1).
@@ -12,7 +6,7 @@ Running a server with mods allows players to connect and enjoy a shared, customi
 
 The two operating systems we'll be targeting specifically in this guide are **Windows 11** and [**Debian 12**](https://www.debian.org/download) (Linux).
 
-[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-make-a-left-4-dead-2-server-with-mods-2025/203)
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://blog.moddingcommunity.com/how-to-make-a-l4d2-server-with-mods/)
 
 I wanted to note a couple of things before continuing in this guide.
 * The terms `directory` (known in Linux) and `folder` (known in Windows) are used interchangeably. To keep things simple, we'll be using **directory** in most cases.
@@ -52,7 +46,7 @@ Left 4 Dead 2 servers are fairly light on RAM usage compared to servers in other
 
 For information on the hardware and network requirements, I recommend giving the following topic a read.
 
-https://forum.moddingcommunity.com/t/hardware-network-requirements-for-source-engine-servers/197
+https://blog.moddingcommunity.com/hardware-network-requirements-for-source-engine-servers/
 
 ### Port Forwarding
 If you plan on having your server accessible from the Internet, you may need to port forward both UDP and TCP ports `27015` through your router. This guide will not cover port forwarding specifically. However, I did want to provide other helpful guides on how to port forward the ports I've just mentioned.
@@ -66,7 +60,7 @@ If your LAN network is operating as a [NAT](https://www.comptia.org/content/guid
 ## Downloading The Server Files
 The next step is to download the server files using [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD). Give the following topic a read and keep in mind the Left 4 Dead 2 server's application ID is `222860`.
 
-https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd/190
+https://blog.moddingcommunity.com/how-to-download-run-steamcmd/
 
 ## Running The Left 4 Dead 2 Server
 To save time, we're going to create start-up scripts for the Left 4 Dead 2 server. We will be creating scripts for both Linux and Windows that starts up the server running the `c8m1_apartment` map which is the first level of the [No Mercy campaign](https://left4dead.fandom.com/wiki/No_Mercy). The server will be bound to all IP addresses and interfaces (`0.0.0.0`) on UDP port 27015.
@@ -187,7 +181,7 @@ There are a few ConVars you may set to help improve the server's performance dep
 
 Give the following section of the guide linked earlier a read!
 
-https://forum.moddingcommunity.com/t/hardware-network-requirements-for-source-engine-servers/197#p-226-the-servers-performance-rate-convar-values-5
+https://blog.moddingcommunity.com/hardware-network-requirements-for-source-engine-servers/
 
 ## How To Mod The Left 4 Dead 2 Server
 There are two methods used when modding a Left 4 Dead 2 server.
@@ -213,7 +207,7 @@ Next, you'll want to find plugins from [here](https://www.sourcemod.net/plugins.
 
 In some cases, you may need to compile the plugins's source code. Read the following topic for instructions on how to do this!
 
-https://forum.moddingcommunity.com/t/how-to-compile-sourcemod-plugins/194
+https://blog.moddingcommunity.com/how-to-compile-sourcemod-plugins/
 
 ### Using The Steam Workshop
 In some cases, a mod you want may only be available through the Steam Workshop. This is common with custom campaigns. Unfortunately, Left 4 Dead 2 servers do not natively support the Steam Workshop unlike other games like [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/).
@@ -367,7 +361,7 @@ If you have SourceMod and MetaMod installed on your Left 4 Dead 2 server, you ca
 
 For steps on how to do this, keep the following topic a read!
 
-https://forum.moddingcommunity.com/t/how-to-manage-user-permissions-in-sourcemod/193
+https://blog.moddingcommunity.com/how-to-manage-user-permissions-in-sourcemod/
 
 ### How do I show and edit file extensions in Windows?
 To view hidden file extensions in Windows 11, through File Explorer, click **View** -> **Show** and ensure the **File name extensions** box is checked.
@@ -381,7 +375,7 @@ Yes, this is possible!
 
 Give the following section of the guide linked earlier a read! Keep in mind that the Left 4 Dead 2 server application ID is `222860`!
 
-https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd/190#p-219-automation-with-script-files-7
+https://blog.moddingcommunity.com/how-to-download-run-steamcmd/#automation-with-script-files
 
 ### How do I enable the developer console?
 By default, the developer console is not enabled in Left 4 Dead 2.
@@ -406,6 +400,6 @@ I just wanted to provide some helpful resources and tools for server owners who 
 ## Conclusion
 That sums up this guide, but I hope to create many more guides in the future! By this point, you should have a functioning Left 4 Dead 2 server with one or more mods/addons installed.
 
-If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-make-a-left-4-dead-2-server-with-mods-2025/203)! This guide will be worked and improved on over time.
+If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-make-a-left-4-dead-2-server-with-mods-2025/507)! This guide will be worked and improved on over time.
 
 Join our [Discord server](https://discord.moddingcommunity.com)!
